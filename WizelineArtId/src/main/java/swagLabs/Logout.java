@@ -75,7 +75,7 @@ public class Logout {
 	//Logout
 		WebElement btnMenu = driver.findElement(By.id("react-burger-menu-btn"));
 		btnMenu.click();
-		Thread.sleep(1000);
+		Thread.sleep(3000);
 		WebElement logoutLink = driver.findElement(By.id("logout_sidebar_link"));
 		logoutLink.click();
 		Thread.sleep(1000);

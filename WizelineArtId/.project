@@ -20,4 +20,11 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>test-output/ExtentReports_swagLabs.html</name>
+			<type>1</type>
+			<locationURI>PROJECT_LOC/ExtentReports_swagLabs.html</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>

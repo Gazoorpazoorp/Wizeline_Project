@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+//import org.openqa.selenium.firefox.FirefoxDriver; 	//Please uncomment this line and comment line 6 in order to change from Chrome to Firefox browser
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.NoSuchElementException;
@@ -19,7 +20,6 @@ import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
 public class Purchase {
 
 	public static void main(String[] args) throws InterruptedException, IOException {
-		
 	// set ExtentReports as reporting tool
 		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("ExtentReports_swagLabs.html");
 		ExtentReports extent = new ExtentReports();
@@ -29,6 +29,10 @@ public class Purchase {
 		String exePath = "./driver/chromedriver";
 		System.setProperty("webdriver.chrome.driver", exePath);
 		WebDriver driver = new ChromeDriver();
+		//Please uncomment the next 3 lines and comment lines 29 to 31 in order to change from Chrome to Firefox browser
+		//String exePath = "./driver/geckodriver";
+		//System.setProperty("webdriver.gecko.driver", exePath);
+		//WebDriver driver = new FirefoxDriver();
 		driver.get("https://www.saucedemo.com/");
 		login.log(Status.INFO, "Navigated to https://www.saucedemo.com/");
 		driver.manage().window().maximize();

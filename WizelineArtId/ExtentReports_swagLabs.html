@@ -46,7 +46,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Nov 3, 2021 07:58:13 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Nov 3, 2021 10:53:51 PM</span>
 				</a>
 			</li>
 			<li>
@@ -137,10 +137,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='28.571%'><span class='strong'>2</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='25%'><span class='strong'>2</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='71.429%'>5</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='75%'>6</span> others
 				</div>
 			</div>
 		</div>
@@ -157,17 +157,17 @@
 				
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>Sort</span>
-						<span class='test-time'>Nov 3, 2021 07:58:13 PM</span>
+						<span class='test-name'>Login (negative)</span>
+						<span class='test-time'>Nov 3, 2021 10:53:52 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Nov 3, 2021 07:58:13 PM</span>
-	<span class='label end-time'>Nov 3, 2021 07:58:26 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 13s+134ms</span>
+	<span class='label start-time'>Nov 3, 2021 10:53:52 PM</span>
+	<span class='label end-time'>Nov 3, 2021 10:54:03 PM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 11s+23ms</span>
 </div>
-	<div class='test-desc'>Sort Products by Price (low to high) </div>
+	<div class='test-desc'>Login with an invalid user </div>
 	<div class='test-steps'>
 		<table class='bordered table-results'>
 			<thead>
@@ -180,37 +180,42 @@
 			<tbody>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>7:58:13 PM</td>
+					<td class='timestamp'>10:53:52 PM</td>
 					<td class='step-details'>Starting Test Case</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>7:58:17 PM</td>
+					<td class='timestamp'>10:53:56 PM</td>
 					<td class='step-details'>Navigated to https://www.saucedemo.com/</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>7:58:23 PM</td>
-					<td class='step-details'>Logging in</td>
+					<td class='timestamp'>10:54:01 PM</td>
+					<td class='step-details'>Attempting to log in</td>
 				</tr>
 				<tr class='log' status='pass'>
 					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>7:58:23 PM</td>
-					<td class='step-details'>User logged in successfully. Products page is displayed</td>
-				</tr>
-				<tr class='log' status='pass'>
-					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-					<td class='timestamp'>7:58:25 PM</td>
-					<td class='step-details'>Products are sorted by Price (low to high)</td>
+					<td class='timestamp'>10:54:01 PM</td>
+					<td class='step-details'>Login failed (expected)</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>7:58:26 PM</td>
+					<td class='timestamp'>10:54:01 PM</td>
+					<td class='step-details'>Confirming if error message is displayed</td>
+				</tr>
+				<tr class='log' status='pass'>
+					<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+					<td class='timestamp'>10:54:01 PM</td>
+					<td class='step-details'>Loggin error message is successfully displayed</td>
+				</tr>
+				<tr class='log' status='info'>
+					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+					<td class='timestamp'>10:54:03 PM</td>
 					<td class='step-details'>Closed the browser</td>
 				</tr>
 				<tr class='log' status='info'>
 					<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-					<td class='timestamp'>7:58:26 PM</td>
+					<td class='timestamp'>10:54:03 PM</td>
 					<td class='step-details'>Test completed</td>
 				</tr>
 			</tbody>
@@ -259,25 +264,25 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>7</div>
+					<div class='panel-lead'>8</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Nov 3, 2021 07:58:13 PM</div>
+					<div class='panel-lead'>Nov 3, 2021 10:53:51 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Nov 3, 2021 07:58:26 PM</div>
+			 		<div class='panel-lead'>Nov 3, 2021 10:54:03 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 13s+659ms</div>
+					<div class='panel-lead'>0h 0m 11s+537ms</div>
 				</div>
 			</div>
 		</div>
@@ -304,7 +309,7 @@
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
-				infoChild: 5,
+				infoChild: 6,
 				exceptionsChild: 0,
 				
 				passGrandChild: 0,

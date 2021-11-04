@@ -28,5 +28,12 @@ To execute a Test Suite containing all the test cases, please use the Suite.xml 
 Run As > Run Configurations... A pop-up windows will be prompted. Please double-click SuiteAllTestCases under Launch Group section from left panel. This will start the execution to run in parallel.
 An html specific for each test case will be added (or updated if ran before) to the test-output folder.
 
+  Technical details.
+
+The required dependencies that need to be added to the POM are: 
+org.seleniumhq.selenium & org.testng, 
+org.apache.poi for the test data provider (.xlsx)
+& com.aventstack for the ExtentReport as reporting tool
+
 
 @Pedro_Zarur

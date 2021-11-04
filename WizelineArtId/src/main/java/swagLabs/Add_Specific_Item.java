@@ -22,7 +22,7 @@ public class Add_Specific_Item {
 	public static void main(String[] args) throws InterruptedException, IOException {
 		
 	// set ExtentReports as reporting tool
-		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("ExtentReports_swagLabs.html");
+		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("ExtentReports_swagLabs_Add_Specific_Item.html");
 		ExtentReports extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
 		ExtentTest login = extent.createTest("Add specific item", "Add the specific product ‘Sauce Labs Onesie’ to the shopping cart");

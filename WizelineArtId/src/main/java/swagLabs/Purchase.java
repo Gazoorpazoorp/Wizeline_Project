@@ -21,7 +21,7 @@ public class Purchase {
 
 	public static void main(String[] args) throws InterruptedException, IOException {
 	// set ExtentReports as reporting tool
-		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("ExtentReports_swagLabs.html");
+		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("ExtentReports_swagLabs_Purchase.html");
 		ExtentReports extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
 		ExtentTest login = extent.createTest("Purchase", "Complete a purchase");

@@ -22,7 +22,7 @@ public class Sort {
 	public static void main(String[] args) throws InterruptedException, IOException {
 		
 	// set ExtentReports as reporting tool
-		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("ExtentReports_swagLabs.html");
+		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("ExtentReports_swagLabs_Sort.html");
 		ExtentReports extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
 		ExtentTest testSort = extent.createTest("Sort", "Sort Products by Price (low to high)");

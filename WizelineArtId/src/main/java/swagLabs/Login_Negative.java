@@ -22,7 +22,7 @@ public class Login_Negative {
 	public static void main(String[] args) throws InterruptedException, IOException {
 
 	// set ExtentReports as reporting tool
-		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("ExtentReports_swagLabs.html");
+		ExtentHtmlReporter htmlReporter = new ExtentHtmlReporter("ExtentReports_swagLabs_Login_Negative.html");
 		ExtentReports extent = new ExtentReports();
 		extent.attachReporter(htmlReporter);
 		ExtentTest loginNegative = extent.createTest("Login (negative)", "Login with an invalid user");

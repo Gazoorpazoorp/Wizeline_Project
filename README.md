@@ -4,7 +4,7 @@ Wizeline Project for the Automation Bootcamp application.
 Introduction.
 
 The present work is a simple test suite to run the scenarios provided in the Wizeline QA Automation Bootcamp document. It is integrated with a Reporting tool 
-for a better visualization of the test results and a way to execute the test cases all together in a test suite. It also provides the option to use multiple browsers (Chrome and Firefox).
+for a better visualization of the test results and a way to execute the test cases all together in a test suite. It also provides the option to use multiple browsers (Chrome and Firefox). The project was developed using Linux.
 
 Instructions to run the test scripts.
 
